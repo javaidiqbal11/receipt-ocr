@@ -53,9 +53,9 @@ Final pipeline testing and QA	            3   <br>
 pip install -r requirements.txt
 ```
 
-2. Train YOLOv5 Model:
+2. Train YOLOv8 Model:
 ```shell
-python src/yolov5_train.py
+python src/yolov8_train.py
 ```
 
 3. Test Models:

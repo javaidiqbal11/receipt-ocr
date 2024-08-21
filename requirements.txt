@@ -2,6 +2,6 @@ torch
 opencv-python
 matplotlib
 flask
-yolov5
+ultralytics
 python-dotenv
 openai
