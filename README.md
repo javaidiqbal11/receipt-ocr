@@ -64,7 +64,7 @@ python src/model_test.py
 
 ```
 
-5. Run the Flask API:
+4. Run the Flask API:
 ```shell
 python src/flask_api.py
 ```
