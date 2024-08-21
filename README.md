@@ -3,8 +3,8 @@
 
 ## Requirements:
 **Milestone 1:** <br>
-Custom OCR Development 
-and Initial Testing 
+Custom OCR Development and Initial Testing 
+
 Receipt Detection 
  
 Labelling Dataset whether it is an image or a 
@@ -58,13 +58,7 @@ pip install -r requirements.txt
 python src/yolov5_train.py
 ```
 
-3. Train CRNN Model:
-```shell
-python src/crnn_train.py
-
-```
-
-4. Test Models:
+3. Test Models:
 ```shell
 python src/model_test.py
 

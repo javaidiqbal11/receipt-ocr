@@ -3,19 +3,17 @@ import cv2
 import numpy as np
 import torch
 from yolov5 import YOLOv5
-from crnn_model import CRNN  # Assuming CRNN model defined in another file
+from gpt4_ocr import gpt4_ocr
 
 app = Flask(__name__)
 
 # Load models
 yolov5_model = YOLOv5('../models/yolov5_receipt_detection.pt')
-ocr_model = CRNN()
-ocr_model.load_state_dict(torch.load('../models/crnn_ocr_model.pth'))
-ocr_model.eval()
 
-def decode_output(output):
-    # Placeholder for output decoding logic
-    return 'Decoded Text'
+def extract_text_from_image(image):
+    # Simulate text extraction from image to pass to GPT-4
+    image_text = "sample image text"
+    return gpt4_ocr(image_text)
 
 @app.route('/process_receipt', methods=['POST'])
 def process_receipt():
@@ -29,10 +27,9 @@ def process_receipt():
         cropped_receipt = img[y1:y2, x1:x2]
         break
     
-    output = ocr_model(cropped_receipt)
-    text = decode_output(output)
+    extracted_text = extract_text_from_image(cropped_receipt)
     
-    return jsonify({'text': text})
+    return jsonify({'text': extracted_text})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)

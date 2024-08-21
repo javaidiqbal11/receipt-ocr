@@ -3,3 +3,5 @@ opencv-python
 matplotlib
 flask
 yolov5
+python-dotenv
+openai
