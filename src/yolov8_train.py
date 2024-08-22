@@ -19,3 +19,5 @@ if __name__ == "__main__":
     
     # Train the YOLOv8 model
     train_yolov8_model(data_yaml, model_save_path)
+
+# follow the ultralytics documentation
