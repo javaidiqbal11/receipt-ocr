@@ -2,10 +2,10 @@
 
 
 ## Requirements:
-**Milestone 1:** <br>
+### Milestone 1: <br>
 Custom OCR Development and Initial Testing 
 
-Receipt Detection 
+**Receipt Detection**
  
 Labelling Dataset whether it is an image or a 
 receipt or not 
@@ -21,8 +21,8 @@ Initial testing results demonstrate the OCR engine's
 accuracy and reliability on various receipt images.
 
 
-**Milestone 2:** <br>
-LLM Integration and Text Parsing 
+### Milestone 2: <br>
+**LLM Integration and Text Parsing**
 
 Integration of a Large Language Model (LLM) 
 trained to recognize and classify receipt elements. 
