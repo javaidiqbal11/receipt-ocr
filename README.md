@@ -53,7 +53,7 @@ Final pipeline testing and QA	            3   <br>
 pip install -r requirements.txt
 ```
 
-2. Train YOLOv8 Model:
+2. Trai [YOLOv8](https://docs.ultralytics.com/) Model:
 ```shell
 python src/yolov8_train.py
 ```
