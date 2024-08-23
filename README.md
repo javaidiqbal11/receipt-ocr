@@ -64,7 +64,7 @@ python src/model_test.py
 
 ```
 
-4. Run the F[lask API](https://flask.palletsprojects.com/en/3.0.x/api/):
+4. Run the [Flask API](https://flask.palletsprojects.com/en/3.0.x/api/):
 ```shell
 python src/flask_api.py
 ```
