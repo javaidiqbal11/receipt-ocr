@@ -53,7 +53,7 @@ Final pipeline testing and QA	            3   <br>
 pip install -r requirements.txt
 ```
 
-2. Train [YOLOv8](https://docs.ultralytics.com/) Model:
+2. Train [YOLOv8m](https://docs.ultralytics.com/) Model:
 ```shell
 python src/yolov8_train.py
 ```
@@ -64,7 +64,7 @@ python src/model_test.py
 
 ```
 
-4. Run the [Flask API](https://flask.palletsprojects.com/en/3.0.x/api/):
+4. Run the [FAST API](https://fastapi.tiangolo.com/):
 ```shell
-python src/flask_api.py
+python src/fast_api.py
 ```
